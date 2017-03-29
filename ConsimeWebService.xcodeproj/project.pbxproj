@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842ECA841E8B58C0008B76D7 /* temp.m in Sources */ = {isa = PBXBuildFile; fileRef = 842ECA831E8B58C0008B76D7 /* temp.m */; };
+		849E15F41E8B465600A93664 /* PublicacionWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E15F31E8B465600A93664 /* PublicacionWebService.swift */; };
+		D5259034260FC26D8160FC2E /* Pods_ConsimeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7129B77F87C2EA018D761368 /* Pods_ConsimeWebService.framework */; };
+		FB6B7B4C1E84A4D5009889F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B7B4B1E84A4D5009889F5 /* AppDelegate.swift */; };
+		FB6B7B4E1E84A4D5009889F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B7B4D1E84A4D5009889F5 /* ViewController.swift */; };
+		FB6B7B511E84A4D5009889F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6B7B4F1E84A4D5009889F5 /* Main.storyboard */; };
+		FB6B7B531E84A4D5009889F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6B7B521E84A4D5009889F5 /* Assets.xcassets */; };
+		FB6B7B561E84A4D5009889F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6B7B541E84A4D5009889F5 /* LaunchScreen.storyboard */; };
+		FB6B7B601E84A576009889F5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B7B5F1E84A576009889F5 /* Comment.swift */; };
+		FB6B7B681E84ABEE009889F5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B7B671E84ABEE009889F5 /* TableViewCell.swift */; };
+		FB6B7B6C1E84BF17009889F5 /* CommentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B7B6B1E84BF17009889F5 /* CommentDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3082B084DF04171ECCCA4F94 /* Pods-ConsimeWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsimeWebService.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConsimeWebService/Pods-ConsimeWebService.release.xcconfig"; sourceTree = "<group>"; };
+		7129B77F87C2EA018D761368 /* Pods_ConsimeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsimeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842ECA811E8B58C0008B76D7 /* ConsimeWebService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConsimeWebService-Bridging-Header.h"; sourceTree = "<group>"; };
+		842ECA821E8B58C0008B76D7 /* temp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = temp.h; sourceTree = "<group>"; };
+		842ECA831E8B58C0008B76D7 /* temp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = temp.m; sourceTree = "<group>"; };
+		849E15F31E8B465600A93664 /* PublicacionWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicacionWebService.swift; sourceTree = "<group>"; };
+		9A45D36B7B6047847EDB20D5 /* Pods-ConsimeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsimeWebService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConsimeWebService/Pods-ConsimeWebService.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6B7B481E84A4D5009889F5 /* ConsimeWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsimeWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6B7B4B1E84A4D5009889F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB6B7B4D1E84A4D5009889F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB6B7B501E84A4D5009889F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB6B7B521E84A4D5009889F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6B7B551E84A4D5009889F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB6B7B571E84A4D5009889F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6B7B5F1E84A576009889F5 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FB6B7B671E84ABEE009889F5 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FB6B7B6B1E84BF17009889F5 /* CommentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6B7B451E84A4D5009889F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5259034260FC26D8160FC2E /* Pods_ConsimeWebService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C804F36EB699AEC9DF2040E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A45D36B7B6047847EDB20D5 /* Pods-ConsimeWebService.debug.xcconfig */,
+				3082B084DF04171ECCCA4F94 /* Pods-ConsimeWebService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BDA0EBC32393F8687469DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7129B77F87C2EA018D761368 /* Pods_ConsimeWebService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		849E15F21E8B463F00A93664 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				849E15F31E8B465600A93664 /* PublicacionWebService.swift */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		FB6B7B3F1E84A4D5009889F5 = {
+			isa = PBXGroup;
+			children = (
+				FB6B7B4A1E84A4D5009889F5 /* ConsimeWebService */,
+				FB6B7B491E84A4D5009889F5 /* Products */,
+				0C804F36EB699AEC9DF2040E /* Pods */,
+				6BDA0EBC32393F8687469DA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6B7B491E84A4D5009889F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B7B481E84A4D5009889F5 /* ConsimeWebService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6B7B4A1E84A4D5009889F5 /* ConsimeWebService */ = {
+			isa = PBXGroup;
+			children = (
+				849E15F21E8B463F00A93664 /* data */,
+				FB6B7B651E84A7EB009889F5 /* vistas */,
+				FB6B7B641E84A7D4009889F5 /* controladores */,
+				FB6B7B631E84A75C009889F5 /* entidades */,
+				FB6B7B4B1E84A4D5009889F5 /* AppDelegate.swift */,
+				FB6B7B4F1E84A4D5009889F5 /* Main.storyboard */,
+				FB6B7B521E84A4D5009889F5 /* Assets.xcassets */,
+				FB6B7B541E84A4D5009889F5 /* LaunchScreen.storyboard */,
+				FB6B7B571E84A4D5009889F5 /* Info.plist */,
+				842ECA821E8B58C0008B76D7 /* temp.h */,
+				842ECA831E8B58C0008B76D7 /* temp.m */,
+				842ECA811E8B58C0008B76D7 /* ConsimeWebService-Bridging-Header.h */,
+			);
+			path = ConsimeWebService;
+			sourceTree = "<group>";
+		};
+		FB6B7B631E84A75C009889F5 /* entidades */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B7B5F1E84A576009889F5 /* Comment.swift */,
+			);
+			name = entidades;
+			sourceTree = "<group>";
+		};
+		FB6B7B641E84A7D4009889F5 /* controladores */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B7B671E84ABEE009889F5 /* TableViewCell.swift */,
+				FB6B7B4D1E84A4D5009889F5 /* ViewController.swift */,
+				FB6B7B6B1E84BF17009889F5 /* CommentDetailViewController.swift */,
+			);
+			name = controladores;
+			sourceTree = "<group>";
+		};
+		FB6B7B651E84A7EB009889F5 /* vistas */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B7B661E84A860009889F5 /* celdas */,
+			);
+			name = vistas;
+			sourceTree = "<group>";
+		};
+		FB6B7B661E84A860009889F5 /* celdas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = celdas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6B7B471E84A4D5009889F5 /* ConsimeWebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6B7B5A1E84A4D5009889F5 /* Build configuration list for PBXNativeTarget "ConsimeWebService" */;
+			buildPhases = (
+				35A7E72680E365D824550BE8 /* [CP] Check Pods Manifest.lock */,
+				FB6B7B441E84A4D5009889F5 /* Sources */,
+				FB6B7B451E84A4D5009889F5 /* Frameworks */,
+				FB6B7B461E84A4D5009889F5 /* Resources */,
+				96E0CEF2A16014D51F0F7C74 /* [CP] Embed Pods Frameworks */,
+				F79FF791C60E8796686DBCC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsimeWebService;
+			productName = ConsimeWebService;
+			productReference = FB6B7B481E84A4D5009889F5 /* ConsimeWebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6B7B401E84A4D5009889F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jorge Limo";
+				TargetAttributes = {
+					FB6B7B471E84A4D5009889F5 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB6B7B431E84A4D5009889F5 /* Build configuration list for PBXProject "ConsimeWebService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB6B7B3F1E84A4D5009889F5;
+			productRefGroup = FB6B7B491E84A4D5009889F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6B7B471E84A4D5009889F5 /* ConsimeWebService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6B7B461E84A4D5009889F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6B7B561E84A4D5009889F5 /* LaunchScreen.storyboard in Resources */,
+				FB6B7B531E84A4D5009889F5 /* Assets.xcassets in Resources */,
+				FB6B7B511E84A4D5009889F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35A7E72680E365D824550BE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96E0CEF2A16014D51F0F7C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConsimeWebService/Pods-ConsimeWebService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79FF791C60E8796686DBCC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConsimeWebService/Pods-ConsimeWebService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6B7B441E84A4D5009889F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6B7B681E84ABEE009889F5 /* TableViewCell.swift in Sources */,
+				842ECA841E8B58C0008B76D7 /* temp.m in Sources */,
+				FB6B7B6C1E84BF17009889F5 /* CommentDetailViewController.swift in Sources */,
+				FB6B7B4E1E84A4D5009889F5 /* ViewController.swift in Sources */,
+				FB6B7B4C1E84A4D5009889F5 /* AppDelegate.swift in Sources */,
+				849E15F41E8B465600A93664 /* PublicacionWebService.swift in Sources */,
+				FB6B7B601E84A576009889F5 /* Comment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB6B7B4F1E84A4D5009889F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6B7B501E84A4D5009889F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6B7B541E84A4D5009889F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6B7B551E84A4D5009889F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB6B7B581E84A4D5009889F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6B7B591E84A4D5009889F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6B7B5B1E84A4D5009889F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A45D36B7B6047847EDB20D5 /* Pods-ConsimeWebService.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ConsimeWebService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.ourlimm.ConsimeWebService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConsimeWebService/ConsimeWebService-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB6B7B5C1E84A4D5009889F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3082B084DF04171ECCCA4F94 /* Pods-ConsimeWebService.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ConsimeWebService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.ourlimm.ConsimeWebService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ConsimeWebService/ConsimeWebService-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6B7B431E84A4D5009889F5 /* Build configuration list for PBXProject "ConsimeWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B7B581E84A4D5009889F5 /* Debug */,
+				FB6B7B591E84A4D5009889F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6B7B5A1E84A4D5009889F5 /* Build configuration list for PBXNativeTarget "ConsimeWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B7B5B1E84A4D5009889F5 /* Debug */,
+				FB6B7B5C1E84A4D5009889F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6B7B401E84A4D5009889F5 /* Project object */;
+}
